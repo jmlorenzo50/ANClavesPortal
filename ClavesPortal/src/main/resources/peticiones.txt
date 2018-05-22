@@ -1,0 +1,15 @@
+# Peticion de obtención de clave de portal erronea
+http://127.0.0.1:8080/keys/get/AAAAA/BBBBB
+http://151.80.57.62:8080/Mock-1.0/keys/get/AAAAA/BBBBB
+
+# Peticion de obtención de clave de portal erronea
+http://127.0.0.1:8080/keys/get/ADMON/6789ABCD
+http://151.80.57.62:8080/Mock-1.0/keys/get/ADMON/6789ABCD
+
+# Portal OK
+http://127.0.0.1:8080/portal/view/7291466E0F486CBDC1AF567FC9AD78D7
+http://151.80.57.62:8080/Mock-1.0/portal/view/7291466E0F486CBDC1AF567FC9AD78D7
+
+# Portal ERROR
+http://127.0.0.1:8080/portal/view/7291
+http://151.80.57.62:8080/Mock-1.0/portal/view/7291
